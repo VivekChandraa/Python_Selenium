@@ -1,0 +1,162 @@
+Index: allure-results/54bc1ba4-bcfa-4776-b5d1-96e3d74a97de-result.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/54bc1ba4-bcfa-4776-b5d1-96e3d74a97de-result.json b/allure-results/54bc1ba4-bcfa-4776-b5d1-96e3d74a97de-result.json
+new file mode 100644
+--- /dev/null	(date 1713642873305)
++++ b/allure-results/54bc1ba4-bcfa-4776-b5d1-96e3d74a97de-result.json	(date 1713642873305)
+@@ -0,0 +1,1 @@
++{"name": "test_open_url", "status": "passed", "start": 1713501437456, "stop": 1713501450740, "uuid": "4b152d21-bf11-4327-b2a3-96108c637fc8", "historyId": "12d02caf96bb5dd1de90cef30fbd3a97", "testCaseId": "12d02caf96bb5dd1de90cef30fbd3a97", "fullName": "test_lab02#test_open_url", "labels": [{"name": "suite", "value": "test_lab02"}, {"name": "host", "value": "DESKTOP-G4GVP9Q"}, {"name": "thread", "value": "14500-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "test_lab02"}]}
+\ No newline at end of file
+Index: allure-results/552c8504-b1b2-4238-ae63-51e11f1b4b23-result.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/552c8504-b1b2-4238-ae63-51e11f1b4b23-result.json b/allure-results/552c8504-b1b2-4238-ae63-51e11f1b4b23-result.json
+new file mode 100644
+--- /dev/null	(date 1713642873306)
++++ b/allure-results/552c8504-b1b2-4238-ae63-51e11f1b4b23-result.json	(date 1713642873306)
+@@ -0,0 +1,1 @@
++{"name": "test_idrive", "status": "failed", "statusDetails": {"message": "AssertionError: assert 'IDrive® 360 ... your account' == 'IDrive® 360 ...o your accoun'\n  \n  - IDrive® 360 - Sign in to your accoun\n  + IDrive® 360 - Sign in to your account\n  ?                                     +", "trace": "def test_idrive():\n        driver.get(\"https://www.idrive360.com/enterprise/login\")\n        driver.find_element(By.XPATH,\"//input[@id='username']\").send_keys(\"admin\")\n        print(driver.title)\n>       assert driver.title==\"IDrive® 360 - Sign in to your accoun\"\nE       AssertionError: assert 'IDrive® 360 ... your account' == 'IDrive® 360 ...o your accoun'\nE         \nE         - IDrive® 360 - Sign in to your accoun\nE         + IDrive® 360 - Sign in to your account\nE         ?                                     +\n\ntest_Project.py:17: AssertionError"}, "attachments": [{"name": "stdout", "source": "5897933b-741d-4708-95c2-aec6545ccc25-attachment.txt", "type": "text/plain"}], "start": 1713501429178, "stop": 1713501437339, "uuid": "d5335654-43ea-4be6-9646-e22eb1044dd3", "historyId": "355e4ab8262e51d1e66ebf7fcd6a4ebe", "testCaseId": "355e4ab8262e51d1e66ebf7fcd6a4ebe", "fullName": "test_Project#test_idrive", "labels": [{"name": "suite", "value": "test_Project"}, {"name": "host", "value": "DESKTOP-G4GVP9Q"}, {"name": "thread", "value": "14500-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "test_Project"}]}
+\ No newline at end of file
+Index: allure-results/5897933b-741d-4708-95c2-aec6545ccc25-attachment.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/5897933b-741d-4708-95c2-aec6545ccc25-attachment.txt b/allure-results/5897933b-741d-4708-95c2-aec6545ccc25-attachment.txt
+new file mode 100644
+--- /dev/null	(date 1713642873306)
++++ b/allure-results/5897933b-741d-4708-95c2-aec6545ccc25-attachment.txt	(date 1713642873306)
+@@ -0,0 +1,1 @@
++IDrive® 360 - Sign in to your account
+Index: allure-results/9dd9747b-0341-402e-8597-dd8b7fabe6ac-container.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/9dd9747b-0341-402e-8597-dd8b7fabe6ac-container.json b/allure-results/9dd9747b-0341-402e-8597-dd8b7fabe6ac-container.json
+new file mode 100644
+--- /dev/null	(date 1713642873307)
++++ b/allure-results/9dd9747b-0341-402e-8597-dd8b7fabe6ac-container.json	(date 1713642873307)
+@@ -0,0 +1,1 @@
++{"uuid": "cc597ca1-01c1-4011-b6a7-8c0c2fd9341d", "children": ["dd01cf80-73b7-40e3-8ddd-1ce57e7177ea", "c8845806-8f39-4bfb-9b6f-f2b5d4177a02"], "befores": [{"name": "_session_faker", "status": "passed", "start": 1713501331694, "stop": 1713501331838}], "start": 1713501331694, "stop": 1713501347364}
+\ No newline at end of file
+Index: allure-results/9e18b464-ae2a-46cf-a384-07d47256533f-attachment.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/9e18b464-ae2a-46cf-a384-07d47256533f-attachment.txt b/allure-results/9e18b464-ae2a-46cf-a384-07d47256533f-attachment.txt
+new file mode 100644
+--- /dev/null	(date 1713642873308)
++++ b/allure-results/9e18b464-ae2a-46cf-a384-07d47256533f-attachment.txt	(date 1713642873308)
+@@ -0,0 +1,1 @@
++IDrive® 360 - Sign in to your account
+Index: test_Project.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_Project.py b/test_Project.py
+new file mode 100644
+--- /dev/null	(date 1713642796549)
++++ b/test_Project.py	(date 1713642796549)
+@@ -0,0 +1,25 @@
++# Open the URL - https://www.idrive360.com/enterprise/login
++# Enter the username, password
++# Verify that Trial is fnished and current URL also
++# Add a logic to add Allure Screen for the Trail end.
++
++import time
++import allure
++import pytest
++from selenium import webdriver
++from selenium.webdriver.common.by import By
++
++driver = webdriver.Chrome()
++
++
++def test_idrive():
++    driver.get("https://www.idrive360.com/enterprise/login")
++    driver.find_element(By.XPATH, "//input[@id='username']").send_keys("augtest_040823@idrive.com")
++    driver.find_element(By.XPATH, "//input[@id='password']").send_keys("123456")
++    driver.find_element(By.XPATH, "//button[@id ='frm-btn']").click()
++    driver.maximize_window()
++    time.sleep(15)
++    message_member = driver.find_element(By.TAG_NAME,"h5").text
++    assert message_member =="Your free trial has expired"
++    assert driver.current_url=="https://www.idrive360.com/enterprise/account?upgradenow=true"
++
+Index: test_lab02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_lab02.py b/test_lab02.py
+new file mode 100644
+--- /dev/null	(date 1713642803424)
++++ b/test_lab02.py	(date 1713642803424)
+@@ -0,0 +1,23 @@
++# open the url - https://katalon-demo-cura.herokuapp.com/
++# click on the make appoinment button
++# verify that url changes - assert
++# time.sleep(3)
++# enter the username, password
++# next page verify the current url
++# make appoinment text on the web page
++import time
++
++from selenium import webdriver
++from selenium.webdriver.common.by import By
++
++
++def test_open_url():
++    driver=webdriver.Chrome()
++    driver.get("https://katalon-demo-cura.herokuapp.com/")
++    elementbutton = driver.find_element(By.ID,"btn-make-appointment").click()
++    assert driver.current_url!="https://katalon-demo-cura.herokuapp.com/"
++    time.sleep(3)
++    driver.find_element(By.ID,"txt-username").send_keys("John Doe")
++    driver.find_element(By.ID,"txt-password").send_keys("ThisIsNotAPassword")
++    assert driver.current_url == driver.current_url
++    driver.find_element(By.ID,"btn-login").click()
+Index: allure-results/0d283b6f-daa0-40d0-b749-6627d0169c28-result.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/0d283b6f-daa0-40d0-b749-6627d0169c28-result.json b/allure-results/0d283b6f-daa0-40d0-b749-6627d0169c28-result.json
+new file mode 100644
+--- /dev/null	(date 1713642873299)
++++ b/allure-results/0d283b6f-daa0-40d0-b749-6627d0169c28-result.json	(date 1713642873299)
+@@ -0,0 +1,1 @@
++{"name": "test_idrive", "status": "failed", "statusDetails": {"message": "AssertionError: assert 'IDrive® 360 ... your account' == 'IDrive® 360 ...o your accoun'\n  \n  - IDrive® 360 - Sign in to your accoun\n  + IDrive® 360 - Sign in to your account\n  ?                                     +", "trace": "def test_idrive():\n        driver.get(\"https://www.idrive360.com/enterprise/login\")\n        driver.find_element(By.XPATH,\"//input[@id='username']\").send_keys(\"admin\")\n        print(driver.title)\n>       assert driver.title==\"IDrive® 360 - Sign in to your accoun\"\nE       AssertionError: assert 'IDrive® 360 ... your account' == 'IDrive® 360 ...o your accoun'\nE         \nE         - IDrive® 360 - Sign in to your accoun\nE         + IDrive® 360 - Sign in to your account\nE         ?                                     +\n\ntest_Project.py:17: AssertionError"}, "attachments": [{"name": "stdout", "source": "9e18b464-ae2a-46cf-a384-07d47256533f-attachment.txt", "type": "text/plain"}], "start": 1713501331839, "stop": 1713501335074, "uuid": "dd01cf80-73b7-40e3-8ddd-1ce57e7177ea", "historyId": "355e4ab8262e51d1e66ebf7fcd6a4ebe", "testCaseId": "355e4ab8262e51d1e66ebf7fcd6a4ebe", "fullName": "test_Project#test_idrive", "labels": [{"name": "suite", "value": "test_Project"}, {"name": "host", "value": "DESKTOP-G4GVP9Q"}, {"name": "thread", "value": "8660-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "test_Project"}]}
+\ No newline at end of file
+Index: allure-results/1ce638a3-4512-4d64-80b8-4f1724ce0d14-container.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/1ce638a3-4512-4d64-80b8-4f1724ce0d14-container.json b/allure-results/1ce638a3-4512-4d64-80b8-4f1724ce0d14-container.json
+new file mode 100644
+--- /dev/null	(date 1713642873302)
++++ b/allure-results/1ce638a3-4512-4d64-80b8-4f1724ce0d14-container.json	(date 1713642873302)
+@@ -0,0 +1,1 @@
++{"uuid": "8dd73fa2-de36-4cf4-bd9a-dff432f9ff08", "children": ["d5335654-43ea-4be6-9646-e22eb1044dd3", "4b152d21-bf11-4327-b2a3-96108c637fc8"], "befores": [{"name": "_session_faker", "status": "passed", "start": 1713501429049, "stop": 1713501429177}], "start": 1713501429049, "stop": 1713501450741}
+\ No newline at end of file
+Index: allure-results/408aa04d-2945-4204-bb0c-63df46a8e05e-result.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/allure-results/408aa04d-2945-4204-bb0c-63df46a8e05e-result.json b/allure-results/408aa04d-2945-4204-bb0c-63df46a8e05e-result.json
+new file mode 100644
+--- /dev/null	(date 1713642873304)
++++ b/allure-results/408aa04d-2945-4204-bb0c-63df46a8e05e-result.json	(date 1713642873304)
+@@ -0,0 +1,1 @@
++{"name": "test_open_url", "status": "passed", "start": 1713501335198, "stop": 1713501347360, "uuid": "c8845806-8f39-4bfb-9b6f-f2b5d4177a02", "historyId": "12d02caf96bb5dd1de90cef30fbd3a97", "testCaseId": "12d02caf96bb5dd1de90cef30fbd3a97", "fullName": "test_lab02#test_open_url", "labels": [{"name": "suite", "value": "test_lab02"}, {"name": "host", "value": "DESKTOP-G4GVP9Q"}, {"name": "thread", "value": "8660-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "test_lab02"}]}
+\ No newline at end of file
