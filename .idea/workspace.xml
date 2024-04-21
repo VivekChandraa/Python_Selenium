@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457a0e9f-39fc-4858-b767-d1f1d0163df9" name="Changes" comment="19-04-2024">
+      <change afterPath="$PROJECT_DIR$/test12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_Min_Project-4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_mini_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_lab003" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_lab02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini_Project_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +54,38 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2fEosUHQEbxONPtkunKi969awIH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for Mini_Project-2.test_open_url.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Mini_Project-3.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Mini_Project-3.test_URL_Open.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for V1.test_log_vwo.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test12.test_open_url.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_Project.test_idrive.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_lab02.test_open_url.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_mini_project.test_URL_Open.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_mini_project.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_mini_project.test_mini_project03.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_mini_project.test_open_url.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Mini_Project-3.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in V1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_mini_project.py.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/USGSITS/PycharmProjects/Python_Selenium&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Project.test_idrive">
-    <configuration name="Python tests for Mini_Project_1.test_open_url" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Python tests for src.test_mini_project" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,11 +96,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Mini_Project_1.test_open_url&quot;" />
+      <option name="_new_target" value="&quot;src.test_mini_project&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for V1.test_log_vwo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for src.test_mini_project" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +111,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;V1.test_log_vwo&quot;" />
+      <option name="_new_target" value="&quot;src.test_mini_project&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Project.test_idrive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for src.test_mini_project.test_mini_project03" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_Selenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,15 +126,15 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Project.test_idrive&quot;" />
+      <option name="_new_target" value="&quot;src.test_mini_project.test_mini_project03&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Project.test_idrive" />
-        <item itemvalue="Python tests.Python tests for Mini_Project_1.test_open_url" />
-        <item itemvalue="Python tests.Python tests for V1.test_log_vwo" />
+        <item itemvalue="Python tests.Python tests for src.test_mini_project.test_mini_project03" />
+        <item itemvalue="Python tests.Python tests for src.test_mini_project" />
+        <item itemvalue="Python tests.Python tests for src.test_mini_project" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713641853652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="19-04-2024">
+      <option name="closed" value="true" />
+      <created>1713720445986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713720445987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
